@@ -1,0 +1,604 @@
+src/main/java/APIQuery.java:5:	Comment is too large: Line too long
+src/main/java/APIQuery.java:8:	All classes and interfaces must belong to a named package
+src/main/java/APIQuery.java:11:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/APIQuery.java:11:	fieldCommentRequirement Required
+src/main/java/APIQuery.java:13:	fieldCommentRequirement Required
+src/main/java/APIQuery.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/APIQuery.java:16:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_endDate' is not final.
+src/main/java/APIQuery.java:16:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_mimeTypes' is not final.
+src/main/java/APIQuery.java:16:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_startDate' is not final.
+src/main/java/APIQuery.java:16:	Parameter 'p_endDate' is not assigned and could be declared final
+src/main/java/APIQuery.java:16:	Parameter 'p_mimeTypes' is not assigned and could be declared final
+src/main/java/APIQuery.java:16:	Parameter 'p_startDate' is not assigned and could be declared final
+src/main/java/APIQuery.java:16:	publicMethodCommentRequirement Required
+src/main/java/APIQuery.java:25:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/APIQuery.java:25:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_mimeTypes' is not final.
+src/main/java/APIQuery.java:25:	Parameter 'p_mimeTypes' is not assigned and could be declared final
+src/main/java/APIQuery.java:31:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_startDate' is not final.
+src/main/java/APIQuery.java:31:	Parameter 'p_startDate' is not assigned and could be declared final
+src/main/java/APIQuery.java:37:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_endDate' is not final.
+src/main/java/APIQuery.java:37:	Parameter 'p_endDate' is not assigned and could be declared final
+src/main/java/APIQuery.java:43:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/APIQuery.java:43:	publicMethodCommentRequirement Required
+src/main/java/APIQuery.java:49:	publicMethodCommentRequirement Required
+src/main/java/APIQuery.java:55:	publicMethodCommentRequirement Required
+src/main/java/APIQuery.java:69:	Found 'DD'-anomaly for variable 'finalQuery' (lines '69'-'76').
+src/main/java/APIQuery.java:76:	Found 'DD'-anomaly for variable 'finalQuery' (lines '76'-'76').
+src/main/java/APIQuery.java:80:	Prefer StringBuffer over += for concatenating strings
+src/main/java/APIQuery.java:88:	Comment is too large: Line too long
+src/main/java/APIQuery.java:89:	Prefer StringBuffer over += for concatenating strings
+src/main/java/APIQuery.java:92:	Prefer StringBuffer over += for concatenating strings
+src/main/java/APIQuery.java:94:	Comment is too large: Line too long
+src/main/java/APIQuery.java:95:	Prefer StringBuffer over += for concatenating strings
+src/main/java/Auth.java:1:	A high number of imports can indicate a high degree of coupling within an object.
+src/main/java/Auth.java:5:	Avoid unused imports such as 'java.io.FileNotFoundException'
+src/main/java/Auth.java:14:	Avoid unused imports such as 'java.net.ProtocolException'
+src/main/java/Auth.java:15:	Avoid unused imports such as 'java.net.URI'
+src/main/java/Auth.java:16:	Avoid unused imports such as 'java.net.URISyntaxException'
+src/main/java/Auth.java:24:	Avoid unused imports such as 'java.util.ArrayList'
+src/main/java/Auth.java:27:	Avoid unused imports such as 'java.util.Scanner'
+src/main/java/Auth.java:30:	Avoid unused imports such as 'javax.servlet.http.HttpServletRequest'
+src/main/java/Auth.java:40:	All classes and interfaces must belong to a named package
+src/main/java/Auth.java:40:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/Auth.java:40:	Avoid short class names like Auth
+src/main/java/Auth.java:40:	The class 'Auth' has a Cyclomatic Complexity of 3 (Highest = 11).
+src/main/java/Auth.java:42:	Variables that are final and static should be all capitals, 'discoveryDocUri' is not all capitals.
+src/main/java/Auth.java:42:	Variables that are final and static should be all capitals, 'pathAuthFile' is not all capitals.
+src/main/java/Auth.java:42:	Variables that are final and static should be all capitals, 'redirectUri' is not all capitals.
+src/main/java/Auth.java:42:	fieldCommentRequirement Required
+src/main/java/Auth.java:43:	Avoid excessively long variable names like authorizationEndPoint
+src/main/java/Auth.java:43:	Avoid excessively long variable names like stateTokenReceived
+src/main/java/Auth.java:43:	fieldCommentRequirement Required
+src/main/java/Auth.java:44:	Variables that are final and static should be all capitals, 'redirectUri_2' is not all capitals.
+src/main/java/Auth.java:44:	fieldCommentRequirement Required
+src/main/java/Auth.java:45:	fieldCommentRequirement Required
+src/main/java/Auth.java:46:	fieldCommentRequirement Required
+src/main/java/Auth.java:47:	Avoid excessively long variable names like successfullyAuthenticated
+src/main/java/Auth.java:47:	Avoid excessively long variable names like successfullyConnected
+src/main/java/Auth.java:47:	fieldCommentRequirement Required
+src/main/java/Auth.java:54:	Found 'UR'-anomaly for variable 'word' (lines '54'-'69').
+src/main/java/Auth.java:57:	Local variable 'fileContent' could be declared final
+src/main/java/Auth.java:58:	Local variable 'manageAuth' could be declared final
+src/main/java/Auth.java:64:	Local variable 'fWriter' could be declared final
+src/main/java/Auth.java:65:	Local variable 'bWriter' could be declared final
+src/main/java/Auth.java:68:	Local variable 'word' could be declared final
+src/main/java/Auth.java:74:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Auth.java:76:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/Auth.java:89:	Comment is too large: Line too long
+src/main/java/Auth.java:90:	Local variable 'classloader' could be declared final
+src/main/java/Auth.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:91:	Avoid variables with short names like is
+src/main/java/Auth.java:91:	Local variable 'is' could be declared final
+src/main/java/Auth.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:92:	Local variable 'sBuilder' could be declared final
+src/main/java/Auth.java:93:	Local variable 'streamReader' could be declared final
+src/main/java/Auth.java:94:	Local variable 'bReader' could be declared final
+src/main/java/Auth.java:96:	Avoid assignments in operands
+src/main/java/Auth.java:96:	Found 'DU'-anomaly for variable 'line' (lines '96'-'119').
+src/main/java/Auth.java:102:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/Auth.java:105:	Avoid excessively long variable names like clientSecretString
+src/main/java/Auth.java:105:	Local variable 'clientSecretString' could be declared final
+src/main/java/Auth.java:107:	System.out.println is used
+src/main/java/Auth.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:114:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:130:	Comment is too large: Line too long
+src/main/java/Auth.java:132:	Local variable 'path' could be declared final
+src/main/java/Auth.java:133:	Local variable 'charset' could be declared final
+src/main/java/Auth.java:135:	Found 'DD'-anomaly for variable 'content' (lines '135'-'136').
+src/main/java/Auth.java:136:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:139:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:149:	Avoid excessively long variable names like discoveryDocContent
+src/main/java/Auth.java:149:	Local variable 'discoveryDocContent' could be declared final
+src/main/java/Auth.java:150:	Avoid excessively long variable names like httpDiscoveryDocContent
+src/main/java/Auth.java:150:	Local variable 'httpDiscoveryDocContent' could be declared final
+src/main/java/Auth.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:153:	Local variable 'bReader' could be declared final
+src/main/java/Auth.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:155:	Local variable 'response' could be declared final
+src/main/java/Auth.java:157:	Avoid assignments in operands
+src/main/java/Auth.java:157:	Found 'DU'-anomaly for variable 'inputLine' (lines '157'-'167').
+src/main/java/Auth.java:163:	Local variable 'responseHttp' could be declared final
+src/main/java/Auth.java:183:	Local variable 'stringAuthURL' could be declared final
+src/main/java/Auth.java:185:	Local variable 'authURLParams' could be declared final
+src/main/java/Auth.java:186:	Local variable 'authUrl' could be declared final
+src/main/java/Auth.java:187:	Avoid excessively long variable names like authHttpConnection
+src/main/java/Auth.java:187:	Local variable 'authHttpConnection' could be declared final
+src/main/java/Auth.java:188:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:190:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:192:	Local variable 'bReader' could be declared final
+src/main/java/Auth.java:192:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:194:	Local variable 'response' could be declared final
+src/main/java/Auth.java:196:	Avoid assignments in operands
+src/main/java/Auth.java:196:	Found 'DU'-anomaly for variable 'inputLine' (lines '196'-'218').
+src/main/java/Auth.java:202:	Local variable 'responseHttp' could be declared final
+src/main/java/Auth.java:205:	Local variable 'htmlFile' could be declared final
+src/main/java/Auth.java:206:	Local variable 'fileWriter' could be declared final
+src/main/java/Auth.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:211:	Comment is too large: Line too long
+src/main/java/Auth.java:212:	Comment is too large: Line too long
+src/main/java/Auth.java:213:	Comment is too large: Line too long
+src/main/java/Auth.java:214:	Comment is too large: Line too long
+src/main/java/Auth.java:224:	Found 'UR'-anomaly for variable 'param' (lines '224'-'230').
+src/main/java/Auth.java:224:	Parameter 'responseHttp' is not assigned and could be declared final
+src/main/java/Auth.java:227:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/Auth.java:227:	Local variable 'results' could be declared final
+src/main/java/Auth.java:229:	Local variable 'param' could be declared final
+src/main/java/Auth.java:230:	Local variable 'pair' could be declared final
+src/main/java/Auth.java:231:	Avoid using Literals in Conditional Statements
+src/main/java/Auth.java:232:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:232:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:234:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/Auth.java:250:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/Auth.java:252:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Auth.java:270:	Avoid excessively long variable names like stringAccessTokenURL
+src/main/java/Auth.java:270:	Local variable 'stringAccessTokenURL' could be declared final
+src/main/java/Auth.java:272:	Local variable 'accessTokenURL' could be declared final
+src/main/java/Auth.java:273:	Avoid excessively long variable names like accessTokenHttpConnection
+src/main/java/Auth.java:273:	Local variable 'accessTokenHttpConnection' could be declared final
+src/main/java/Auth.java:274:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:277:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:278:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:283:	Local variable 'bodyRequest' could be declared final
+src/main/java/Auth.java:287:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:289:	Local variable 'outStream' could be declared final
+src/main/java/Auth.java:289:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:290:	Local variable 'outStreamWriter' could be declared final
+src/main/java/Auth.java:297:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:298:	Avoid empty catch blocks
+src/main/java/Auth.java:303:	Local variable 'responseRead' could be declared final
+src/main/java/Auth.java:303:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:308:	Local variable 'response' could be declared final
+src/main/java/Auth.java:310:	Avoid assignments in operands
+src/main/java/Auth.java:310:	Found 'DU'-anomaly for variable 'readLine' (lines '310'-'323').
+src/main/java/Auth.java:330:	The method 'validateIdToken' has a Cyclomatic Complexity of 11.
+src/main/java/Auth.java:330:	The method validateIdToken() has an NPath complexity of 240
+src/main/java/Auth.java:333:	Avoid excessively long variable names like tokenIsGoogleIssued
+src/main/java/Auth.java:333:	Found 'DD'-anomaly for variable 'tokenIsGoogleIssued' (lines '333'-'364').
+src/main/java/Auth.java:334:	Found 'DD'-anomaly for variable 'issIsValid' (lines '334'-'370').
+src/main/java/Auth.java:335:	Found 'DD'-anomaly for variable 'audIsValid' (lines '335'-'376').
+src/main/java/Auth.java:336:	Found 'DD'-anomaly for variable 'expIsValid' (lines '336'-'382').
+src/main/java/Auth.java:338:	Local variable 'iss' could be declared final
+src/main/java/Auth.java:339:	Local variable 'aud' could be declared final
+src/main/java/Auth.java:340:	Local variable 'exp' could be declared final
+src/main/java/Auth.java:343:	Avoid excessively long variable names like stGoogleIssuedTokenURL
+src/main/java/Auth.java:343:	Local variable 'stGoogleIssuedTokenURL' could be declared final
+src/main/java/Auth.java:345:	Avoid excessively long variable names like googleIssuedTokenURL
+src/main/java/Auth.java:345:	Local variable 'googleIssuedTokenURL' could be declared final
+src/main/java/Auth.java:346:	Avoid excessively long variable names like googleIssuedHttpConnection
+src/main/java/Auth.java:346:	Local variable 'googleIssuedHttpConnection' could be declared final
+src/main/java/Auth.java:347:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:349:	Local variable 'bReader' could be declared final
+src/main/java/Auth.java:349:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:351:	Local variable 'response' could be declared final
+src/main/java/Auth.java:353:	Avoid assignments in operands
+src/main/java/Auth.java:353:	Found 'DU'-anomaly for variable 'inputLine' (lines '353'-'393').
+src/main/java/Auth.java:359:	Local variable 'responseHttp' could be declared final
+src/main/java/Auth.java:361:	Comment is too large: Line too long
+src/main/java/Auth.java:362:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:369:	Position literals first in String comparisons
+src/main/java/Auth.java:369:	Position literals first in String comparisons
+src/main/java/Auth.java:369:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:369:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/Auth.java:387:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/Auth.java:388:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Auth.java:430:	Parameter 'flag' is not assigned and could be declared final
+src/main/java/DriveConnection.java:28:	All classes and interfaces must belong to a named package
+src/main/java/DriveConnection.java:28:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/DriveConnection.java:30:	Avoid excessively long variable names like CREDENTIALS_FOLDER
+src/main/java/DriveConnection.java:30:	fieldCommentRequirement Required
+src/main/java/DriveConnection.java:31:	fieldCommentRequirement Required
+src/main/java/DriveConnection.java:32:	The field name indicates a constant but its modifiers do not
+src/main/java/DriveConnection.java:32:	Variables should start with a lowercase character, 'SCOPES' starts with uppercase character.
+src/main/java/DriveConnection.java:32:	fieldCommentRequirement Required
+src/main/java/DriveConnection.java:33:	fieldCommentRequirement Required
+src/main/java/DriveConnection.java:39:	Parameter 'flag' is not assigned and could be declared final
+src/main/java/DriveConnection.java:45:	System.out.println is used
+src/main/java/DriveConnection.java:48:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'HTTP_TRANSPORT' is not final.
+src/main/java/DriveConnection.java:48:	Variables should start with a lowercase character, 'HTTP_TRANSPORT' starts with uppercase character.
+src/main/java/DriveConnection.java:56:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/DriveConnection.java:70:	Parameter 'flag' is not assigned and could be declared final
+src/main/java/DriveConnection.java:76:	Avoid using Literals in Conditional Statements
+src/main/java/DriveConnection.java:83:	Avoid variables with short names like in
+src/main/java/DriveConnection.java:83:	Local variable 'in' could be declared final
+src/main/java/DriveConnection.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/DriveConnection.java:84:	Local variable 'clientSecrets' could be declared final
+src/main/java/DriveConnection.java:87:	Local variable 'storedCredentials' could be declared final
+src/main/java/DriveConnection.java:89:	Comment is too large: Line too long
+src/main/java/DriveConnection.java:92:	System.out.println is used
+src/main/java/DriveConnection.java:97:	Local variable 'flow' could be declared final
+src/main/java/DriveConnection.java:99:	Unnecessary use of fully qualified name 'java.io.File' due to existing import 'java.io.File'
+src/main/java/FileCreation.java:6:	Avoid unused imports such as 'java.net.ProtocolException'
+src/main/java/FileCreation.java:19:	All classes and interfaces must belong to a named package
+src/main/java/FileCreation.java:21:	fieldCommentRequirement Required
+src/main/java/FileCreation.java:22:	fieldCommentRequirement Required
+src/main/java/FileCreation.java:23:	fieldCommentRequirement Required
+src/main/java/FileCreation.java:24:	fieldCommentRequirement Required
+src/main/java/FileCreation.java:26:	Avoid excessively long variable names like p_filesDescription
+src/main/java/FileCreation.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_fileTitle' is not final.
+src/main/java/FileCreation.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_filesDescription' is not final.
+src/main/java/FileCreation.java:26:	Parameter 'p_fileTitle' is not assigned and could be declared final
+src/main/java/FileCreation.java:26:	Parameter 'p_filesDescription' is not assigned and could be declared final
+src/main/java/FileCreation.java:26:	publicMethodCommentRequirement Required
+src/main/java/FileCreation.java:33:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_fileTitle' is not final.
+src/main/java/FileCreation.java:33:	Parameter 'p_fileTitle' is not assigned and could be declared final
+src/main/java/FileCreation.java:39:	Avoid excessively long variable names like p_filesDescription
+src/main/java/FileCreation.java:39:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_filesDescription' is not final.
+src/main/java/FileCreation.java:39:	Parameter 'p_filesDescription' is not assigned and could be declared final
+src/main/java/FileCreation.java:45:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_httpsConnection' is not final.
+src/main/java/FileCreation.java:45:	Parameter 'p_httpsConnection' is not assigned and could be declared final
+src/main/java/FileCreation.java:51:	publicMethodCommentRequirement Required
+src/main/java/FileCreation.java:57:	publicMethodCommentRequirement Required
+src/main/java/FileCreation.java:63:	publicMethodCommentRequirement Required
+src/main/java/FileCreation.java:73:	Avoid unused private methods such as 'connect()'.
+src/main/java/FileCreation.java:76:	Local variable 'stringURL' could be declared final
+src/main/java/FileCreation.java:77:	Local variable 'direccionURL' could be declared final
+src/main/java/FileCreation.java:85:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/FileCreation.java:94:	Avoid unused private methods such as 'composeHttpRequest()'.
+src/main/java/FileCreation.java:97:	Local variable 'fileMetadata' could be declared final
+src/main/java/FileCreation.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:101:	Local variable 'bodyReqLength' could be declared final
+src/main/java/FileCreation.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:118:	Parameter 'fileMetadata' is not assigned and could be declared final
+src/main/java/FileCreation.java:120:	System.out.println is used
+src/main/java/FileCreation.java:126:	Local variable 'outStream' could be declared final
+src/main/java/FileCreation.java:127:	Local variable 'outStreamWriter' could be declared final
+src/main/java/FileCreation.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/FileCreation.java:135:	Avoid empty catch blocks
+src/main/java/FileCreation.java:142:	Avoid unused private methods such as 'getHttpResponse()'.
+src/main/java/FileCreation.java:146:	Local variable 'responseCode' could be declared final
+src/main/java/FileCreation.java:148:	System.out.println is used
+src/main/java/FileCreation.java:150:	Local variable 'responseRead' could be declared final
+src/main/java/FileCreation.java:155:	Found 'DU'-anomaly for variable 'response' (lines '155'-'165').
+src/main/java/FileCreation.java:155:	Local variable 'response' could be declared final
+src/main/java/FileCreation.java:157:	Avoid assignments in operands
+src/main/java/FileCreation.java:157:	Found 'DU'-anomaly for variable 'readLine' (lines '157'-'165').
+src/main/java/FileCreation.java:162:	Avoid empty catch blocks
+src/main/java/FileCreation.java:169:	Local variable 'fileMetadata' could be declared final
+src/main/java/FileCreation.java:170:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:171:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:173:	Local variable 'file' could be declared final
+src/main/java/FileCreation.java:173:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:173:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:173:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/FileCreation.java:173:	Potential violation of Law of Demeter (static property access)
+src/main/java/FileCreation.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/FileCreation.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/FileCreation.java:177:	System.out.println is used
+src/main/java/FileCreation.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/FileCreation.java:178:	System.out.println is used
+src/main/java/FileCreation.java:179:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/FileCreation.java:179:	System.out.println is used
+src/main/java/FileCreation.java:192:	Comment is too large: Too many lines
+src/main/java/MeliChallengeFrame.java:4:	Avoid unused imports such as 'javax.swing.JProgressBar'
+src/main/java/MeliChallengeFrame.java:16:	Avoid unused imports such as 'java.security.GeneralSecurityException'
+src/main/java/MeliChallengeFrame.java:19:	Avoid unused imports such as 'javax.swing.ImageIcon'
+src/main/java/MeliChallengeFrame.java:20:	Avoid unused imports such as 'javax.swing.SwingConstants'
+src/main/java/MeliChallengeFrame.java:23:	Avoid unused imports such as 'javax.swing.border.TitledBorder'
+src/main/java/MeliChallengeFrame.java:24:	Avoid unused imports such as 'javax.swing.UIManager'
+src/main/java/MeliChallengeFrame.java:25:	Avoid unused imports such as 'java.awt.Color'
+src/main/java/MeliChallengeFrame.java:30:	All classes and interfaces must belong to a named package
+src/main/java/MeliChallengeFrame.java:30:	The class 'MeliChallengeFrame' has a Cyclomatic Complexity of 4 (Highest = 20).
+src/main/java/MeliChallengeFrame.java:30:	The class 'MeliChallengeFrame' has a Modified Cyclomatic Complexity of 3 (Highest = 18).
+src/main/java/MeliChallengeFrame.java:30:	The class 'MeliChallengeFrame' has a Standard Cyclomatic Complexity of 3 (Highest = 18).
+src/main/java/MeliChallengeFrame.java:34:	Avoid excessively long variable names like pnlDriveConnection
+src/main/java/MeliChallengeFrame.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:34:	Perhaps 'pnlCreateFile' could be replaced by a local variable.
+src/main/java/MeliChallengeFrame.java:34:	Perhaps 'pnlDriveConnection' could be replaced by a local variable.
+src/main/java/MeliChallengeFrame.java:34:	Perhaps 'pnlMain' could be replaced by a local variable.
+src/main/java/MeliChallengeFrame.java:34:	Perhaps 'pnlWordSearch' could be replaced by a local variable.
+src/main/java/MeliChallengeFrame.java:34:	Private field 'pnlCreateFile' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/MeliChallengeFrame.java:34:	Private field 'pnlDriveConnection' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/MeliChallengeFrame.java:34:	Private field 'pnlMain' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/MeliChallengeFrame.java:34:	Private field 'pnlWordSearch' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/MeliChallengeFrame.java:34:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:37:	Avoid excessively long variable names like lblCreateFileDescription
+src/main/java/MeliChallengeFrame.java:37:	Avoid excessively long variable names like lblCreatedFileDesc
+src/main/java/MeliChallengeFrame.java:37:	Avoid excessively long variable names like lblCreatedFileName
+src/main/java/MeliChallengeFrame.java:37:	Avoid excessively long variable names like lblDriveConnection
+src/main/java/MeliChallengeFrame.java:37:	Avoid excessively long variable names like lblFileDescription
+src/main/java/MeliChallengeFrame.java:37:	Avoid excessively long variable names like lblSearchByIdHttps
+src/main/java/MeliChallengeFrame.java:37:	Avoid excessively long variable names like lblWordSearchDescription
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:37:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:38:	Avoid excessively long variable names like btnDriveDisconnection
+src/main/java/MeliChallengeFrame.java:38:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:38:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:38:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:39:	Avoid excessively long variable names like rdbtnSearchByIdHttps
+src/main/java/MeliChallengeFrame.java:39:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:39:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:39:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:39:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:39:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:39:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:40:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:40:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:40:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:41:	Avoid excessively long variable names like txtFileDescription
+src/main/java/MeliChallengeFrame.java:41:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:41:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:41:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/MeliChallengeFrame.java:41:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:42:	Avoid excessively long variable names like btnGroupChooseOperation
+src/main/java/MeliChallengeFrame.java:42:	Avoid excessively long variable names like btnGroupChooseSearchMethod
+src/main/java/MeliChallengeFrame.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:42:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:45:	Avoid excessively long variable names like searchMethodSelected
+src/main/java/MeliChallengeFrame.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:45:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/MeliChallengeFrame.java:46:	To avoid mistakes add a comment at the beginning of the word field if you want a default access modifier
+src/main/java/MeliChallengeFrame.java:46:	Use explicit scoping instead of the default package private level
+src/main/java/MeliChallengeFrame.java:46:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:49:	fieldCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:54:	Parameter 'args' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:55:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/MeliChallengeFrame.java:56:	publicMethodCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:58:	Local variable 'frame' could be declared final
+src/main/java/MeliChallengeFrame.java:60:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/MeliChallengeFrame.java:61:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/MeliChallengeFrame.java:70:	It is a good practice to call super() in a constructor
+src/main/java/MeliChallengeFrame.java:70:	The constructor 'MeliChallengeFrame' has a Cyclomatic Complexity of 20.
+src/main/java/MeliChallengeFrame.java:70:	The constructor 'MeliChallengeFrame' has a Modified Cyclomatic Complexity of 18.
+src/main/java/MeliChallengeFrame.java:70:	The constructor 'MeliChallengeFrame' has a Standard Cyclomatic Complexity of 18.
+src/main/java/MeliChallengeFrame.java:70:	The constructor with 0 parameters has an NCSS line count of 175
+src/main/java/MeliChallengeFrame.java:200:	The String literal "Tahoma" appears 5 times in this file; the first occurrence is on line 200
+src/main/java/MeliChallengeFrame.java:241:	Overridable method 'initState' called during object construction
+src/main/java/MeliChallengeFrame.java:245:	Avoid variables with short names like al
+src/main/java/MeliChallengeFrame.java:245:	Local variable 'al' could be declared final
+src/main/java/MeliChallengeFrame.java:246:	Avoid variables with short names like ae
+src/main/java/MeliChallengeFrame.java:246:	Parameter 'ae' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:246:	publicMethodCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:274:	Comment is too large: Line too long
+src/main/java/MeliChallengeFrame.java:275:	Local variable 'al2' could be declared final
+src/main/java/MeliChallengeFrame.java:276:	Avoid variables with short names like ae
+src/main/java/MeliChallengeFrame.java:276:	Parameter 'ae' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:276:	publicMethodCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:299:	Parameter 'arg0' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:299:	publicMethodCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:307:	Parameter 'arg0' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:307:	publicMethodCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:317:	Parameter 'arg0' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:317:	publicMethodCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:326:	Avoid variables with short names like ws
+src/main/java/MeliChallengeFrame.java:326:	Local variable 'ws' could be declared final
+src/main/java/MeliChallengeFrame.java:333:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:340:	Avoid using Literals in Conditional Statements
+src/main/java/MeliChallengeFrame.java:342:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:353:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/MeliChallengeFrame.java:363:	Parameter 'arg0' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:363:	publicMethodCommentRequirement Required
+src/main/java/MeliChallengeFrame.java:367:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/MeliChallengeFrame.java:367:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/MeliChallengeFrame.java:373:	Local variable 'newFileCreation' could be declared final
+src/main/java/MeliChallengeFrame.java:379:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:390:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/MeliChallengeFrame.java:395:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:422:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:427:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:438:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:444:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:451:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:457:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/MeliChallengeFrame.java:480:	Parameter 'txtField' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:482:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/MeliChallengeFrame.java:485:	Local variable 'notifMsg' could be declared final
+src/main/java/MeliChallengeFrame.java:487:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/MeliChallengeFrame.java:501:	Parameter 'pnl' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:501:	Parameter 'titulo' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:503:	Local variable 'border' could be declared final
+src/main/java/MeliChallengeFrame.java:512:	Avoid variables with short names like e
+src/main/java/MeliChallengeFrame.java:512:	Parameter 'e' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:522:	Avoid variables with short names like e
+src/main/java/MeliChallengeFrame.java:522:	Parameter 'e' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:533:	Avoid variables with short names like e
+src/main/java/MeliChallengeFrame.java:533:	Parameter 'e' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:546:	Avoid variables with short names like e
+src/main/java/MeliChallengeFrame.java:546:	Parameter 'e' is not assigned and could be declared final
+src/main/java/MeliChallengeFrame.java:562:	Avoid variables with short names like e
+src/main/java/MeliChallengeFrame.java:562:	Parameter 'e' is not assigned and could be declared final
+src/main/java/NotificationMessage.java:8:	All classes and interfaces must belong to a named package
+src/main/java/NotificationMessage.java:10:	fieldCommentRequirement Required
+src/main/java/NotificationMessage.java:11:	fieldCommentRequirement Required
+src/main/java/NotificationMessage.java:12:	fieldCommentRequirement Required
+src/main/java/NotificationMessage.java:15:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_message' is not final.
+src/main/java/NotificationMessage.java:15:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_title' is not final.
+src/main/java/NotificationMessage.java:15:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_type' is not final.
+src/main/java/NotificationMessage.java:15:	Parameter 'p_message' is not assigned and could be declared final
+src/main/java/NotificationMessage.java:15:	Parameter 'p_title' is not assigned and could be declared final
+src/main/java/NotificationMessage.java:15:	Parameter 'p_type' is not assigned and could be declared final
+src/main/java/NotificationMessage.java:15:	publicMethodCommentRequirement Required
+src/main/java/NotificationMessage.java:24:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_type' is not final.
+src/main/java/NotificationMessage.java:24:	Parameter 'p_type' is not assigned and could be declared final
+src/main/java/NotificationMessage.java:30:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_title' is not final.
+src/main/java/NotificationMessage.java:30:	Parameter 'p_title' is not assigned and could be declared final
+src/main/java/NotificationMessage.java:36:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_message' is not final.
+src/main/java/NotificationMessage.java:36:	Parameter 'p_message' is not assigned and could be declared final
+src/main/java/NotificationMessage.java:42:	publicMethodCommentRequirement Required
+src/main/java/NotificationMessage.java:48:	publicMethodCommentRequirement Required
+src/main/java/NotificationMessage.java:54:	publicMethodCommentRequirement Required
+src/main/java/NotificationMessage.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/NotificationMessage.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/NotificationMessage.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:4:	Avoid unused imports such as 'java.net.HttpURLConnection'
+src/main/java/WordSearch.java:6:	Avoid unused imports such as 'java.util.HashMap'
+src/main/java/WordSearch.java:8:	Avoid unused imports such as 'javax.net.ssl.HttpsURLConnection'
+src/main/java/WordSearch.java:10:	Avoid unused imports such as 'org.apache.http.impl.client.DefaultHttpClient'
+src/main/java/WordSearch.java:21:	Comment is too large: Line too long
+src/main/java/WordSearch.java:23:	All classes and interfaces must belong to a named package
+src/main/java/WordSearch.java:23:	The class 'WordSearch' has a Cyclomatic Complexity of 3 (Highest = 11).
+src/main/java/WordSearch.java:23:	The class 'WordSearch' has a Standard Cyclomatic Complexity of 3 (Highest = 11).
+src/main/java/WordSearch.java:26:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/WordSearch.java:26:	Comment is too large: Line too long
+src/main/java/WordSearch.java:26:	fieldCommentRequirement Required
+src/main/java/WordSearch.java:27:	fieldCommentRequirement Required
+src/main/java/WordSearch.java:28:	fieldCommentRequirement Required
+src/main/java/WordSearch.java:29:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/WordSearch.java:29:	fieldCommentRequirement Required
+src/main/java/WordSearch.java:30:	Comment is too large: Line too long
+src/main/java/WordSearch.java:30:	fieldCommentRequirement Required
+src/main/java/WordSearch.java:31:	Comment is too large: Line too long
+src/main/java/WordSearch.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_searchMethod' is not final.
+src/main/java/WordSearch.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_word' is not final.
+src/main/java/WordSearch.java:34:	Parameter 'p_searchMethod' is not assigned and could be declared final
+src/main/java/WordSearch.java:34:	Parameter 'p_word' is not assigned and could be declared final
+src/main/java/WordSearch.java:34:	publicMethodCommentRequirement Required
+src/main/java/WordSearch.java:44:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/WordSearch.java:44:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_selectedFiles' is not final.
+src/main/java/WordSearch.java:44:	Parameter 'p_selectedFiles' is not assigned and could be declared final
+src/main/java/WordSearch.java:50:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/WordSearch.java:50:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_selectedFileIds' is not final.
+src/main/java/WordSearch.java:50:	Parameter 'p_selectedFileIds' is not assigned and could be declared final
+src/main/java/WordSearch.java:56:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_word' is not final.
+src/main/java/WordSearch.java:56:	Parameter 'p_word' is not assigned and could be declared final
+src/main/java/WordSearch.java:59:	Avoid unused private methods such as 'setIStream(InputStream)'.
+src/main/java/WordSearch.java:59:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_iStream' is not final.
+src/main/java/WordSearch.java:59:	Parameter 'p_iStream' is not assigned and could be declared final
+src/main/java/WordSearch.java:61:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_searchMethod' is not final.
+src/main/java/WordSearch.java:61:	Parameter 'p_searchMethod' is not assigned and could be declared final
+src/main/java/WordSearch.java:67:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/WordSearch.java:67:	publicMethodCommentRequirement Required
+src/main/java/WordSearch.java:73:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/WordSearch.java:73:	publicMethodCommentRequirement Required
+src/main/java/WordSearch.java:79:	publicMethodCommentRequirement Required
+src/main/java/WordSearch.java:85:	publicMethodCommentRequirement Required
+src/main/java/WordSearch.java:91:	publicMethodCommentRequirement Required
+src/main/java/WordSearch.java:98:	Comment is too large: Line too long
+src/main/java/WordSearch.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_dateRangeCode' is not final.
+src/main/java/WordSearch.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_mimeTypeCode' is not final.
+src/main/java/WordSearch.java:101:	Parameter 'p_dateRangeCode' is not assigned and could be declared final
+src/main/java/WordSearch.java:101:	Parameter 'p_mimeTypeCode' is not assigned and could be declared final
+src/main/java/WordSearch.java:103:	Comment is too large: Line too long
+src/main/java/WordSearch.java:110:	Comment is too large: Line too long
+src/main/java/WordSearch.java:111:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/WordSearch.java:116:	Local variable 'notifMsg' could be declared final
+src/main/java/WordSearch.java:120:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/WordSearch.java:126:	Local variable 'notifMsg' could be declared final
+src/main/java/WordSearch.java:142:	Found 'UR'-anomaly for variable 'file' (lines '154'-'171').
+src/main/java/WordSearch.java:142:	Parameter 'dateRangeCode' is not assigned and could be declared final
+src/main/java/WordSearch.java:142:	Parameter 'mimeTypeCode' is not assigned and could be declared final
+src/main/java/WordSearch.java:145:	System.out.println is used
+src/main/java/WordSearch.java:147:	Local variable 'result' could be declared final
+src/main/java/WordSearch.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:147:	Potential violation of Law of Demeter (static property access)
+src/main/java/WordSearch.java:157:	Local variable 'file' could be declared final
+src/main/java/WordSearch.java:157:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:163:	Local variable 'file' could be declared final
+src/main/java/WordSearch.java:163:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:169:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:173:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/WordSearch.java:175:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/WordSearch.java:185:	Comment is too large: Line too long
+src/main/java/WordSearch.java:187:	Comment is too large: Line too long
+src/main/java/WordSearch.java:190:	A getX() method which returns a boolean should be named isX()
+src/main/java/WordSearch.java:190:	Avoid really long methods.
+src/main/java/WordSearch.java:192:	Comment is too large: Line too long
+src/main/java/WordSearch.java:194:	Local variable 'randomIdFile' could be declared final
+src/main/java/WordSearch.java:201:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:201:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:203:	Local variable 'notifMsg' could be declared final
+src/main/java/WordSearch.java:203:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:203:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:203:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:203:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:209:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:209:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:209:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:209:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:209:	Potential violation of Law of Demeter (static property access)
+src/main/java/WordSearch.java:210:	Local variable 'notifMsg' could be declared final
+src/main/java/WordSearch.java:210:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:210:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:210:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:210:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:217:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:217:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:217:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:221:	Local variable 'responseHttp' could be declared final
+src/main/java/WordSearch.java:228:	Local variable 'notifMsgExc' could be declared final
+src/main/java/WordSearch.java:230:	Potential violation of Law of Demeter (static property access)
+src/main/java/WordSearch.java:231:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/WordSearch.java:234:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/WordSearch.java:238:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/WordSearch.java:244:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:244:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:246:	Local variable 'notifMsg' could be declared final
+src/main/java/WordSearch.java:246:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:246:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:246:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:246:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:248:	Avoid excessively long variable names like uriViewContentFile
+src/main/java/WordSearch.java:248:	Local variable 'uriViewContentFile' could be declared final
+src/main/java/WordSearch.java:248:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:250:	Local variable 'client' could be declared final
+src/main/java/WordSearch.java:250:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:251:	Local variable 'request' could be declared final
+src/main/java/WordSearch.java:258:	Local variable 'response' could be declared final
+src/main/java/WordSearch.java:258:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:260:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/WordSearch.java:260:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/WordSearch.java:262:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/WordSearch.java:271:	Comment is too large: Too many lines
+src/main/java/WordSearch.java:273:	Comment is too large: Line too long
+src/main/java/WordSearch.java:297:	Comment is too large: Line too long
+src/main/java/WordSearch.java:298:	Comment is too large: Line too long
+src/main/java/WordSearch.java:299:	Comment is too large: Line too long
+src/main/java/WordSearch.java:302:	Parameter 'dateRangeCode' is not assigned and could be declared final
+src/main/java/WordSearch.java:302:	Parameter 'mimeTypeCode' is not assigned and could be declared final
+src/main/java/WordSearch.java:302:	The method 'instantiateQuery' has a Cyclomatic Complexity of 11.
+src/main/java/WordSearch.java:302:	The method 'instantiateQuery' has a Standard Cyclomatic Complexity of 11.
+src/main/java/WordSearch.java:305:	Local variable 'mimeTypes' could be declared final
+src/main/java/WordSearch.java:306:	Found 'DD'-anomaly for variable 'startDate' (lines '319'-'360').
+src/main/java/WordSearch.java:306:	Found 'DD'-anomaly for variable 'startDate' (lines '319'-'364').
+src/main/java/WordSearch.java:306:	Found 'DD'-anomaly for variable 'startDate' (lines '319'-'369').
+src/main/java/WordSearch.java:306:	Found 'DD'-anomaly for variable 'startDate' (lines '319'-'374').
+src/main/java/WordSearch.java:311:	Switch statements should have a default label
+src/main/java/WordSearch.java:344:	Switch statements should have a default label
+src/main/java/WordSearch.java:372:	Local variable 'nuevaQuery' could be declared final
+src/main/java/WordSearch.java:380:	Comment is too large: Line too long
+src/main/java/WordSearch.java:383:	Avoid variables with short names like in
+src/main/java/WordSearch.java:383:	Local variable 'in' could be declared final
+src/main/java/WordSearch.java:384:	Local variable 'bReader' could be declared final
+src/main/java/WordSearch.java:386:	Local variable 'sBuilder' could be declared final
+src/main/java/WordSearch.java:388:	Found 'DD'-anomaly for variable 'bufferLine' (lines '401'-'405').
+src/main/java/WordSearch.java:392:	Avoid assignments in operands
+src/main/java/WordSearch.java:392:	Found 'DU'-anomaly for variable 'bufferLine' (lines '405'-'417').
+src/main/java/WordSearch.java:396:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/WordSearch.java:400:	Avoid printStackTrace(); use a logger call instead.
