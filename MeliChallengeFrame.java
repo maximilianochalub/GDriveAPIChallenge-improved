@@ -25,7 +25,7 @@ import javax.swing.UIManager;
 import java.awt.Color;
 /**
  * @author Maximiliano Chalub
- * @description Esta clase corresponde al Frame mostrado al ejecutar la aplicaci髇
+ * @description Esta clase corresponde al Frame mostrado al ejecutar la aplicaci贸n
  */
 public class MeliChallengeFrame extends JFrame {
 
@@ -81,49 +81,49 @@ public class MeliChallengeFrame extends JFrame {
 		
 		// Creamos demas panels
 		pnlDriveConnection = new JPanel();
-		pnlWordSearch = new JPanel(); //panel para ejecutar la operaci髇 "Buscar palabra"
-		pnlCreateFile = new JPanel(); //panel para ejecutar la operaci髇 "Crear archivo"
+		pnlWordSearch = new JPanel(); //panel para ejecutar la operaci贸n "Buscar palabra"
+		pnlCreateFile = new JPanel(); //panel para ejecutar la operaci贸n "Crear archivo"
 		
 		// Seteamos layouts en null para mover controles
 		pnlDriveConnection.setLayout(null);
 		pnlWordSearch.setLayout(null);
 		pnlCreateFile.setLayout(null);
 		
-		// Especificamos orientaci髇 y tama駉 de los panels
+		// Especificamos orientaci贸n y tama帽o de los panels
 		pnlDriveConnection.setBounds(10, 11, 583, 145);
 		pnlWordSearch.setBounds(10, 167, 583, 315);
 		pnlCreateFile.setBounds(10, 493, 583, 160);
 		
-		// A馻dimos paneles-subpaneles
+		// A帽adimos paneles-subpaneles
 		pnlMain.add(pnlDriveConnection);
 		pnlMain.add(pnlWordSearch);
 		pnlMain.add(pnlCreateFile);
 		
-        // Establecemos los titulos de los panels
-        setTitulo("Inicio", pnlDriveConnection);
-        setTitulo("Buscar palabra en un documento", pnlWordSearch);
-        setTitulo("Crear archivo en Drive", pnlCreateFile);
+      		// Establecemos los titulos de los panels
+      	        setTitulo("Inicio", pnlDriveConnection);
+        	setTitulo("Buscar palabra en un documento", pnlWordSearch);
+        	setTitulo("Crear archivo en Drive", pnlCreateFile);
 		
 		// Creamos demas componentes swing para los frames
 		lblDriveConnection = new JLabel("Autentique y proporcione permisos a su cuenta de Google para comenzar");
 		lblWordSearch = new JLabel("Ingresar palabra");
-		lblWordSearchDescription = new JLabel("Ingresar una palabra y buscarla en el contenido de un archivo eligiendo un m閠odo de selecci髇 del archivo\r\n");
-		lblCreateFileDescription = new JLabel("Ingresar t韙ulo y descripci髇 de un archivo y crearlo en la cuenta de Google Drive del usuario");
-		lblSearchFilter = new JLabel("Filtro de b鷖queda");
+		lblWordSearchDescription = new JLabel("Ingresar una palabra y buscarla en el contenido de un archivo eligiendo un m茅todo de selecci贸n del archivo\r\n");
+		lblCreateFileDescription = new JLabel("Ingresar t铆tulo y descripci贸n de un archivo y crearlo en la cuenta de Google Drive del usuario");
+		lblSearchFilter = new JLabel("Filtro de b煤squeda");
 		lblFileMimeType = new JLabel("Tipo de archivo");
-		lblSearchMethod = new JLabel("M閠odo de selecci髇");
-		lblSearchByFile = new JLabel("Selecci髇 aleatoria de un archivo de los que coinciden con el filtro especificado");
-		lblSearchById = new JLabel("Selecci髇 de un archivo con su ID de los que coinciden con el filtro v韆 el m閠odo getWebContentLink()");
-		lblFileYear = new JLabel("A駉 de creaci髇");
-		lblFileTitle = new JLabel("T韙ulo");
-		lblFileDescription = new JLabel("Descripci髇");	
+		lblSearchMethod = new JLabel("M茅todo de selecci贸n");
+		lblSearchByFile = new JLabel("Selecci贸n aleatoria de un archivo de los que coinciden con el filtro especificado");
+		lblSearchById = new JLabel("Selecci贸n de un archivo con su ID de los que coinciden con el filtro v铆a el m茅todo getWebContentLink()");
+		lblFileYear = new JLabel("A帽o de creaci贸n");
+		lblFileTitle = new JLabel("T铆tulo");
+		lblFileDescription = new JLabel("Descripci贸n");	
 		lblCreatedFileId = new JLabel("");
 		lblCreatedFileName = new JLabel("");
 		lblCreatedFileDesc = new JLabel("");
 		lblFileProperties = new JLabel("Propiedades del archivo creado: ");
 		lblFileProperties.setEnabled(false);
 		lblSearchResult = new JLabel("");
-		lblSearchByIdHttps = new JLabel("Selecci髇 de un archivo con su ID de los que coinciden con el filtro v韆 una https request");
+		lblSearchByIdHttps = new JLabel("Selecci贸n de un archivo con su ID de los que coinciden con el filtro v铆a una https request");
 	
 		cbxFileMimeType = new JComboBox();
 		cbxFileYear = new JComboBox();
@@ -164,7 +164,7 @@ public class MeliChallengeFrame extends JFrame {
 		txtFileTitle = new JTextField();
 		txtFileDescription = new JTextField();
 
-		// Establecemos un grupo de botones y a馻dimos
+		// Establecemos un grupo de botones y a帽adimos
 
 		lblDriveConnection.setBounds(10, 23, 533, 23);
 		lblSearchFilter.setBounds(10, 27, 128, 14);
@@ -213,7 +213,7 @@ public class MeliChallengeFrame extends JFrame {
 		pnlWordSearch.add(txtWordSearch);
 		pnlWordSearch.add(lblSearchFilter);
 		pnlWordSearch.add(cbxFileMimeType);
-	    pnlWordSearch.add(cbxFileYear);
+	    	pnlWordSearch.add(cbxFileYear);
 		pnlWordSearch.add(lblFileMimeType);
 		pnlWordSearch.add(lblFileYear);
 		pnlWordSearch.add(lblWordSearch);
@@ -231,17 +231,17 @@ public class MeliChallengeFrame extends JFrame {
 		pnlCreateFile.add(txtFileDescription);
 		pnlCreateFile.add(txtFileTitle);
 		pnlCreateFile.add(btnCreateFile);
-        pnlCreateFile.add(lblFileDescription);
-        pnlCreateFile.add(lblCreatedFileId);
-        pnlCreateFile.add(lblCreatedFileName);
-        pnlCreateFile.add(lblCreatedFileDesc);
-        pnlCreateFile.add(lblFileProperties);
+       		pnlCreateFile.add(lblFileDescription);
+        	pnlCreateFile.add(lblCreatedFileId);
+        	pnlCreateFile.add(lblCreatedFileName);
+        	pnlCreateFile.add(lblCreatedFileDesc);
+        	pnlCreateFile.add(lblFileProperties);
 
-        // Estado inicial de componentes Swing
-        initState();
+       		 // Estado inicial de componentes Swing
+        	initState();
         
 		// Eventos para los componentes Swing
-        // --> Click sobre una opcion en el Radio Button Group [seleccionar operacion]
+       		// --> Click sobre una opcion en el Radio Button Group [seleccionar operacion]
 		ActionListener al = new ActionListener(){
 			public void actionPerformed(ActionEvent ae) {
 				
@@ -268,34 +268,34 @@ public class MeliChallengeFrame extends JFrame {
                }
            };
            
-           rdbtnWordSearch.addActionListener(al);
-           rdbtnCreateFile.addActionListener(al);
+           	rdbtnWordSearch.addActionListener(al);
+           	rdbtnCreateFile.addActionListener(al);
           
-        // --> Click sobre una opcion en el Radio Button Group [seleccionar metodo de busqueda]
-       	ActionListener al2 = new ActionListener(){
+       	        // --> Click sobre una opcion en el Radio Button Group [seleccionar metodo de busqueda]
+       		ActionListener al2 = new ActionListener(){
 			public void actionPerformed(ActionEvent ae) {
 				
 				 if (rdbtnSearchByFile.isSelected()) {
-                	enableWordSearch(true);
-                	searchMethodSelected = 0;
+                			enableWordSearch(true);
+                			searchMethodSelected = 0;
                 
-                } else if (rdbtnSearchById.isSelected()) {
-                	enableWordSearch(true);
-                	searchMethodSelected = 1;             	
-                } else {
-                	enableWordSearch(true);
-                	searchMethodSelected = 2;  
-                }				 
+                		} else if (rdbtnSearchById.isSelected()) {
+                			enableWordSearch(true);
+                			searchMethodSelected = 1;             	
+               			 } else {
+                			enableWordSearch(true);
+                			searchMethodSelected = 2;  
+               			 }				 
 				 
-               }
-           };
+              	 	}
+          	 };
 
-           rdbtnSearchByFile.addActionListener(al2);
-           rdbtnSearchById.addActionListener(al2);
-           rdbtnSearchByIdHttps.addActionListener(al2);
+          	 rdbtnSearchByFile.addActionListener(al2);
+           	 rdbtnSearchById.addActionListener(al2);
+           	 rdbtnSearchByIdHttps.addActionListener(al2);
            
    		// Obtenemos los indices de las opciones seleccionadas
-        cbxFileMimeType.addActionListener(new ActionListener() {
+        	cbxFileMimeType.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				fileMimeType = cbxFileMimeType.getSelectedIndex();
@@ -303,7 +303,7 @@ public class MeliChallengeFrame extends JFrame {
 			}
 		});
         
-        cbxFileYear.addActionListener(new ActionListener() {
+       		 cbxFileYear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				fileYear = cbxFileYear.getSelectedIndex();
@@ -311,8 +311,8 @@ public class MeliChallengeFrame extends JFrame {
 			}
 		});
            
-        // --> Click sobre el boton "Buscar palabra"
-        btnWordSearch.addMouseListener(new MouseAdapter() {
+       		 // --> Click sobre el boton "Buscar palabra"
+       		 btnWordSearch.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				
@@ -330,7 +330,7 @@ public class MeliChallengeFrame extends JFrame {
 						
 						if (ws.execute(fileMimeType, fileYear)) {
 							
-							NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la b鷖queda", "Se ha localizado la palabra buscada!");
+							NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la b煤squeda", "Se ha localizado la palabra buscada!");
 							notifMsg.show();
 							lblSearchResult.setEnabled(true);
 							lblSearchResult.setText("Status: 200 OK - Palabra encontrada");
@@ -339,7 +339,7 @@ public class MeliChallengeFrame extends JFrame {
 							
 							if (searchResult != 1) {
 							
-								NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la b鷖queda", "No se ha localizado la palabra buscada");
+								NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la b煤squeda", "No se ha localizado la palabra buscada");
 								notifMsg.show();
 								lblSearchResult.setEnabled(true);
 								lblSearchResult.setText("Status: 404 NOT FOUND - Palabra no encontrada");
@@ -357,7 +357,7 @@ public class MeliChallengeFrame extends JFrame {
 			}
 		});
         
-         // --> Click sobre el boton "Crear archivo"
+         	// --> Click sobre el boton "Crear archivo"
 		btnCreateFile.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -376,12 +376,12 @@ public class MeliChallengeFrame extends JFrame {
 						try {
 							newFileCreation.createFile();
 							
-							NotificationMessage notifMsg = new NotificationMessage(1, "Creaci髇 del archivo", "Se ha creado correctamente el archivo con los datos ingresados.\n Visualice sus propiedades en la ventana de la aplicaci髇");
+							NotificationMessage notifMsg = new NotificationMessage(1, "Creaci贸n del archivo", "Se ha creado correctamente el archivo con los datos ingresados.\n Visualice sus propiedades en la ventana de la aplicaci贸n");
 							notifMsg.show();	
 							
 							lblCreatedFileId.setText("ID: " + FileCreation.fileId);
-							lblCreatedFileName.setText("T韙ulo: " + fileTitle);
-							lblCreatedFileDesc.setText("Descripci髇: " + fileDescription);
+							lblCreatedFileName.setText("T铆tulo: " + fileTitle);
+							lblCreatedFileDesc.setText("Descripci贸n: " + fileDescription);
 							lblFileProperties.setEnabled(true);
 							
 							
@@ -392,7 +392,7 @@ public class MeliChallengeFrame extends JFrame {
 					
 					} else {
 							
-						NotificationMessage notifMsg = new NotificationMessage(0, "Completar t韙ulo y nombre de archivo", "Se ha superado el l韒ite m醲imo de caracteres ingresados en alguno de los campos.\nIntente nuevamente.\n(m醲. t韙ulo: 40 caracteres)\n(m醲. descripci髇: 80 caracteres)");
+						NotificationMessage notifMsg = new NotificationMessage(0, "Completar t铆tulo y nombre de archivo", "Se ha superado el l铆mite m谩ximo de caracteres ingresados en alguno de los campos.\nIntente nuevamente.\n(m谩x. t铆tulo: 40 caracteres)\n(m谩x. descripci贸n: 80 caracteres)");
 						notifMsg.show();							
 						
 					}
@@ -410,8 +410,7 @@ public class MeliChallengeFrame extends JFrame {
 	
 		// Si la conexion fue exitosa
 		try {
-
-			// Verificamos si podemos crear el archivo para autenticaci髇
+			// Verificamos si podemos crear el archivo para autenticaci贸n
 			if (Auth.createFileToManageAuth()) {
 
 				if (Auth.connect(operationSelected)) {
@@ -419,29 +418,29 @@ public class MeliChallengeFrame extends JFrame {
 					
 					if (operationSelected == 0) {
 
-						NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la conexi髇", "Busqueda palabra\n\nHa sincronizado exitosamente su cuenta de Google Drive con la aplicaci髇!\nPresione \"Aceptar\" para comenzar a utilizarla");
+						NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la conexi贸n", "Busqueda palabra\n\nHa sincronizado exitosamente su cuenta de Google Drive con la aplicaci贸n!\nPresione \"Aceptar\" para comenzar a utilizarla");
 						notifMsg.show();
 					
 					} else {
 
-						NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la conexi髇", "Creaci髇 de un archivo\n\nHa sincronizado exitosamente su cuenta de Google Drive con la aplicaci髇!\nPresione \"Aceptar\" para comenzar a utilizarla");
+						NotificationMessage notifMsg = new NotificationMessage(1, "Resultado de la conexi贸n", "Creaci贸n de un archivo\n\nHa sincronizado exitosamente su cuenta de Google Drive con la aplicaci贸n!\nPresione \"Aceptar\" para comenzar a utilizarla");
 						notifMsg.show();
 					}
 	
-					// Habilitamos opciones para seleccionar la operaci髇 deseada
+					// Habilitamos opciones para seleccionar la operaci贸n deseada
 					enableOptions(true);
 					
 				// Conexion no exitosa - problema en la conexion
 				} else if (Auth.successfullyAuthenticated) {
 					// Informamos
 
-					NotificationMessage notifMsg = new NotificationMessage(0, "Resultado de la conexi髇", "Error al conectar\n Intente nuevamente");
+					NotificationMessage notifMsg = new NotificationMessage(0, "Resultado de la conexi贸n", "Error al conectar\n Intente nuevamente");
 					notifMsg.show();	
 				// Conexion no exitosa - problema en la autenticacion
 				} else {
 					// Informamos
 		
-					NotificationMessage notifMsg = new NotificationMessage(0, "Resultado de la conexi髇 - Error de autenticaci髇", "Error al autenticar al usuario'\n Intente nuevamente");
+					NotificationMessage notifMsg = new NotificationMessage(0, "Resultado de la conexi贸n - Error de autenticaci贸n", "Error al autenticar al usuario'\n Intente nuevamente");
 					notifMsg.show();	
 				}
 				
@@ -465,11 +464,11 @@ public class MeliChallengeFrame extends JFrame {
 	public void initState() {
 	
 		enableOptions(true);
-        enableWordSearch(false);
-        enableCreateFile(false);
-        enableAllWordSearch(false); 
-        lblSearchResult.setEnabled(false);
-        lblSearchResult.setText("Status:");
+		enableWordSearch(false);
+		enableCreateFile(false);
+		enableAllWordSearch(false); 
+		lblSearchResult.setEnabled(false);
+		lblSearchResult.setText("Status:");
 	}
 
     /**
@@ -482,7 +481,7 @@ public class MeliChallengeFrame extends JFrame {
 		if (txtField.getText().isEmpty()) {
 
 			// Informamos al usuario
-			NotificationMessage notifMsg = new NotificationMessage(1, "Campos vac韔s", "Complete el campo para poder continuar");
+			NotificationMessage notifMsg = new NotificationMessage(1, "Campos vac铆os", "Complete el campo para poder continuar");
 			notifMsg.show();
 			return true;
 			
@@ -527,7 +526,7 @@ public class MeliChallengeFrame extends JFrame {
     }
     
     /**
-     * Habilita o deshabilita las opciones de m閠odo de b鷖queda
+     * Habilita o deshabilita las opciones de m茅todo de b煤squeda
      * @param e
      */
     public void enableOptionsSearchMethod(boolean e) {
